@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<order_lang:Order xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:order_lang="http://www.example.org/order_lang">
+  <orderlines name="Hay (bale)" quantity="2"/>
+  <orderlines name="Apple (pack of 2)" quantity="5"/>
+  <orderlines name="Mealworms (small pack)" quantity="1"/>
+</order_lang:Order>

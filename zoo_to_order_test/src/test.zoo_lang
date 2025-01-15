@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zoo_lang:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:zoo_lang="http://www.example.org/zoo_lang">
+  <animal name="Zebra">
+    <needs food="//@food.0" quantity="2"/>
+    <needs food="//@food.1" quantity="4"/>
+  </animal>
+  <animal name="Meerkat">
+    <needs food="//@food.1" quantity="1"/>
+    <needs food="//@food.2" quantity="1"/>
+  </animal>
+  <food needs="//@animal.0/@needs.0" name="Hay (bale)"/>
+  <food needs="//@animal.0/@needs.1 //@animal.1/@needs.0" name="Apple (pack of 2)"/>
+  <food needs="//@animal.1/@needs.1" name="Mealworms (small pack)"/>
+</zoo_lang:Model>

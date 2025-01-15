@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated zoo_lang -->
+      <package
+            uri="http://www.example.org/zoo_lang"
+            class="uk.ac.kcl.inf.mdd.zoo_lang.Zoo_langPackage"
+            genModel="model/zoo_lang.genmodel"/>
+   </extension>
+
+</plugin>

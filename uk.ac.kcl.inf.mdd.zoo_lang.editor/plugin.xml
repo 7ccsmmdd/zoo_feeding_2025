@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated zoo_lang -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="uk.ac.kcl.inf.mdd.zoo_lang.presentation.Zoo_langModelWizardID"
+            name="%_UI_Zoo_langModelWizard_label"
+            class="uk.ac.kcl.inf.mdd.zoo_lang.presentation.Zoo_langModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Zoo_langModelFile.gif">
+         <description>%_UI_Zoo_langModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated zoo_lang -->
+      <editor
+            id="uk.ac.kcl.inf.mdd.zoo_lang.presentation.Zoo_langEditorID"
+            name="%_UI_Zoo_langEditor_label"
+            icon="icons/full/obj16/Zoo_langModelFile.gif"
+            extensions="zoo_lang"
+            class="uk.ac.kcl.inf.mdd.zoo_lang.presentation.Zoo_langEditor"
+            contributorClass="uk.ac.kcl.inf.mdd.zoo_lang.presentation.Zoo_langActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
