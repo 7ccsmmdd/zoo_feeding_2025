@@ -1,12 +1,12 @@
 <?nsuri zoo_lang?>
 <Model>
   <animal name="Zebra">
-    <needs food="Hay" quantity="2"/>
-    <needs food="Apple" quantity="4"/>
+    <needs food="Hay (bale)" quantity="2"/>
+    <needs food="Apple (pack of 2)" quantity="4"/>
   </animal>
   <animal name="Meerkat">
-    <needs food="Apple" quantity="1"/>
-    <needs food="Mealworms" quantity="1"/>
+    <needs food="Apple (pack of 2)" quantity="1"/>
+    <needs food="Mealworms (small pack)" quantity="1"/>
   </animal>
   <food name="Hay (bale)"/>
   <food name="Apple (pack of 2)"/>
