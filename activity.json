@@ -25,7 +25,7 @@
                     "buttons": [
                         {
                             "id": "button-generate-model-diagram",
-                            "actionfunction": "function-xmi2diagram",
+                            "actionfunction": "function-flexmi2plantuml",
                             "hint": "Show source-model diagram",
                             "icon": "diagram-generate"                            
                         }
@@ -72,7 +72,7 @@
                     "sourceButton": "button-generate-model-diagram",
     
                     "parameters": {
-                        "xmi": "hidden-panel-source-model",
+                        "flexmi": "hidden-panel-source-model",
                         "emfatic": "hidden-panel-source-mm"
                     },
     
