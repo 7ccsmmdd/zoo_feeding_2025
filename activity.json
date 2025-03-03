@@ -25,7 +25,7 @@
                     "buttons": [
                         {
                             "id": "button-generate-model-diagram",
-                            "actionfunction": "function-xmi2plantuml",
+                            "actionfunction": "function-xmi2diagram",
                             "hint": "Show source-model diagram",
                             "icon": "diagram-generate"                            
                         }
