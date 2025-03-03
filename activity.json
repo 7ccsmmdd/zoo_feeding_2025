@@ -56,7 +56,7 @@
                 {
                     "id": "hidden-panel-source-model",
                     "name": "XMI",
-                    "ref": "xmi",
+                    "ref": "flexmi",
                     "file": "zoo_to_order_test/src/test.zoo_lang"
                 }
             ],
